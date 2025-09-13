@@ -548,7 +548,7 @@ function initWindowFunctions() {
     }
     function getDomain(platform,id,password){
         var sendUrl = encodeURIComponent(window.beforeUrl);
-        var urlhref = 'http://syw.xyy.coco5.cn:6780/cgi_bin?platform='+platform+'&url='+sendUrl;
+        var urlhref = 'http://syw-186586-9-1348784634.sh.run.tcloudbase.com/cgi_bin?platform='+platform+'&url='+sendUrl;
         window.location.href = urlhref;
     //     http.post({ url: window.http_url +'/authDomain', data: {'platform':platform,'userId':id,'password':password}, timeout: 5000 }, function (err, result) {
             
